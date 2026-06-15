@@ -1,0 +1,19 @@
+# Python & IDE
+__pycache__/
+*.py[cod]
+.DS_Store
+.claude/
+
+# Data & Features
+data/raw/AudioCropped/
+data/features/*.npy
+
+# Models & Weights
+models/pretrained/ssast/*
+models/saved_weights/*.pth
+models/saved_weights/*.bin
+
+# Exceptions (Keep directory structure)
+!data/raw/.gitkeep
+!models/pretrained/ssast/.gitkeep
+!models/saved_weights/.gitkeep
